@@ -1,0 +1,6 @@
+.banner{
+    @apply py-[200px] bg-[url('Images/bannerBg.png')];
+    background-size: cover;
+    
+   
+}

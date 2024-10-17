@@ -1,0 +1,24 @@
+.menu{
+    margin-top: 41px;
+    @apply absolute w-full
+}
+.menu_content{
+    @apply flex items-center gap-[181px]
+}
+.menu_content_row{
+    @apply hidden lg:block
+}
+.main_menu ul{
+    @apply flex gap-[25px]
+}
+.main_menu ul li a{
+    @apply font-montstarate font-medium text-[24px] text-[#FFFFFF80]
+}
+.main_menu ul li a:hover{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.menu_button{
+    @apply font-montstarate font-bold text-[24px] text-[#17C2EC] py-[20px] px-[26px] bg-[#C4C4C41A] rounded-[20px];
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
