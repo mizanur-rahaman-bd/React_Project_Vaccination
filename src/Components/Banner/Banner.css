@@ -1,6 +1,15 @@
 .banner{
-    @apply py-[200px] bg-[url('Images/bannerBg.png')];
+    @apply pt-[127px] lg:pt-[211px] bg-[url('Images/bannerBg.png')];
     background-size: cover;
     
    
+}
+.banner_row{
+    @apply px-[35px]
+}
+.banner_text_col h2{
+    @apply font-montstarate font-bold text-Brand_color text-[12px] lg:text-[24px] mb-[20px] md:mb-[40px]
+}
+.banner_text_col h1{
+    @apply w-[277px] md:w-[414px] lg:w-[603px] font-montstarate font-extrabold text-[24px] md:text-[36px] lg:text-[48px] text-white
 }

@@ -1,0 +1,29 @@
+.responsiveNav{
+    @apply relative lg:hidden
+}
+.resmenu{
+    @apply w-[250px] bg-Brand_color rounded-xl absolute top-full right-0 p-3 overflow-hidden;
+    animation: resmenu 1s linear; 
+}
+@keyframes resmenu {
+    0%{
+        opacity: 0;
+        height: 100%;
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        height: 272px;
+        width: 250px;
+    }
+}
+.resmenulink ul{
+    @apply flex flex-col items-center gap-2
+}
+.resmenulink ul li a{
+    @apply font-semibold font-montstarate text-white text-lg
+
+}
+.resmenubutton{
+    @apply mt-6 text-center bg-[#0B153C] text-white rounded-xl p-2 font-bold items-center
+}
