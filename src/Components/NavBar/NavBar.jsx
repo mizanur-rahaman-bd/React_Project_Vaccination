@@ -8,9 +8,9 @@ const NavBar = () => {
     <>
       <nav className='menu'>
         <div className="container">
-            <div className="menu_row flex justify-between items-center">
+            <div className="menu_row px-[35px] md:px-[50px] lg:px-0 flex justify-between items-center">
                 <div className="menu_logo">
-                    <img src="Images/logo.png" alt="LOgo" />
+                    <img className='w-[200px] lg:w-[251px] h-[31px] md:h-[35px] lg:h-[44px]' src="Images/logo.png" alt="LOgo" />
 
                 </div>
                 <div className="menu_content_row">
