@@ -1,5 +1,6 @@
 import React from 'react'
 import './Banner.css'
+import CommonButton from '../Common/CommonButton'
 
 const Banner = () => {
   return (
@@ -12,9 +13,13 @@ const Banner = () => {
             <h2>Get Vaccinated. Boost your Immune System</h2>
             <h1>COVID-19 Vaccination
                 Got Easier With, </h1>
-                <span className='text-Brand_color font-montstarate font-extrabold text-[24px] md:text-[36px] lg:text-[48px]'>Vaccination.ng</span>
+                <span className='text-Brand_color font-montstarate font-extrabold text-[24px] md:text-[36px] lg:text-[48px] mb-[20px] md:mb-[40px] lg:mb-[50px]'>Vaccination.ng</span>
                 <p>Vaccination.ng will help you find the nearest
                 centre for vaccination, in all 36 states in Nigeria.</p>
+                <div className='banner_button mb-[50px] flex gap-[20px]'>
+                  <CommonButton CommonButtonText={'Get Vaccine'} />
+                  <CommonButton CommonButtonText={'Help Centre'} />
+                </div>
 
           </div>
           <div className="banner_img_col">

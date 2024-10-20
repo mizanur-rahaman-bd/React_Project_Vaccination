@@ -13,3 +13,6 @@
 .banner_text_col h1{
     @apply w-[277px] md:w-[414px] lg:w-[603px] font-montstarate font-extrabold text-[24px] md:text-[36px] lg:text-[48px] text-white
 }
+.banner_text_col p{
+    @apply w-[271px] md:w-[502px] lg:w-[603px] font-montstarate font-bold text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFF] mb-[40px] lg:mb-[50px]
+}
