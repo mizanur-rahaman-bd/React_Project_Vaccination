@@ -1,10 +1,34 @@
 .DataBaseCheck {
-  @apply px-[35px] md:px-[50px] lg:px-[70px] pt-[84px] md:pt-[57px] lg:pt-[62px] pb-[32px] md:pb-[57px] lg:pb-[62px] bg-[url('Images/bannerBg.png')];
+  @apply px-[35px] md:px-[50px] lg:px-[40px] pt-[84px] md:pt-[57px] lg:pt-[62px] pb-[32px] md:pb-[57px] lg:pb-[62px] bg-[url('Images/bannerBg.png')];
   background-size: cover;
 }
-.data_base_row{
-    @apply bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px] px-[13px] md:px-[61px] lg:px-[93px]
+.data_base_row {
+  @apply bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px] px-[13px] md:px-[61px] lg:px-[70px];
 }
-.dataBaseHeadingtext{
-    @apply font-montstarate font-bold text-[10px] md:text-[20px] lg:text-[24px] text-[#FFFFFF]
+.dataBaseHeadingtext {
+  @apply font-montstarate font-bold text-[10px] md:text-[20px] lg:text-[24px] text-[#FFFFFF];
+}
+.input_section button {
+  @apply mb-[48px] md:mb-[50px] lg:mb-[35px] px-[51px] py-[16px] md:px-[52px] md:py-[20px] lg:px-[46px] lg:py-[20px] bg-[rgba(196,196,196,0.1)] rounded-[20px] font-montstarate font-bold text-[14px] md:text-[20px] lg:text-[24px] text-white;
+  border: solid 2px #c4c4c436;
+}
+.input_section button:hover {
+  @apply text-Brand_color;
+  border: solid 2px #17c2ec;
+}
+.input_section {
+  @apply mt-[20px] md:mt-[40px] lg:mt-[71px] flex flex-wrap gap-[20px];
+}
+.input_section input {
+  @apply lg:mb-[35px] w-[280px] md:w-[447px] lg:w-[450px] outline-none font-montstarate font-medium text-[12px] md:text-[20px] lg:text-[24px] text-white rounded-[20px] bg-transparent p-3;
+  border: solid 2px rgba(196, 196, 196, 0.212);
+}
+.input_section input:hover {
+  border: solid 2px #17c2ec;
+}
+.certificate_text{
+  @apply mb-[32px] md:mb-[35px] lg:mb-[31px] px-[13px] md:px-[38px] md:py-[14px] py-[12px] lg:px-[176px] lg:py-[20px] bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px]
+}
+.certificate_text h3{
+  @apply font-montstarate text-center font-bold text-[10px] md:text-[14px] lg:text-[24px] text-[#17C2EC]
 }
