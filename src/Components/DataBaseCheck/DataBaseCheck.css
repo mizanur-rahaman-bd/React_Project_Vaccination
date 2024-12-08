@@ -3,7 +3,7 @@
   background-size: cover;
 }
 .data_base_row {
-  @apply bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px] px-[13px] md:px-[61px] lg:px-[70px];
+  @apply bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px] px-[13px] md:px-[61px] lg:px-[70px] pb-[32px] md:pb-[35px] lg:pb-[31px];
 }
 .dataBaseHeadingtext {
   @apply font-montstarate font-bold text-[10px] md:text-[20px] lg:text-[24px] text-[#FFFFFF];
@@ -26,9 +26,39 @@
 .input_section input:hover {
   border: solid 2px #17c2ec;
 }
-.certificate_text{
-  @apply mb-[32px] md:mb-[35px] lg:mb-[31px] px-[13px] md:px-[38px] md:py-[14px] py-[12px] lg:px-[176px] lg:py-[20px] bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px]
+.certificate_text {
+  @apply px-[13px] md:px-[38px] md:py-[14px] py-[12px] lg:px-[176px] lg:py-[20px] bg-[#C4C4C4] bg-opacity-[.1] rounded-[20px];
 }
-.certificate_text h3{
-  @apply font-montstarate text-center font-bold text-[10px] md:text-[14px] lg:text-[24px] text-[#17C2EC]
+.certificate_text h3 {
+  @apply font-montstarate text-center font-bold text-[10px] md:text-[14px] lg:text-[24px] text-[#17C2EC];
+}
+.get_vaccinated_Row{
+  @apply pt-[58px] pb-[80px] mb-[40px]
+}
+.Get_vaccinated_text_row{
+  @apply flex flex-wrap justify-between items-start
+}
+.immune{
+  @apply w-[449px] pt-[40px] pl-[40px] pb-[77px] rounded-b-[50px] rounded-tl-[50px] rounded-tr-[150px] bg-[rgba(196,196,196,0.16)] 
+}
+.immune h3{
+  @apply w-[288px] mt-[39px] mb-[29px] font-montstarate font-bold text-[23px] text-Brand_color
+}
+.immune p{
+  @apply w-[352px] font-montstarate font-medium text-[17px] text-white
+
+}
+.immune a{
+  @apply mt-[40px] font-montstarate font-bold text-[17px] text-Brand_color inline-block
+}
+.spread_virus{
+  @apply w-[349px] rounded-[50px] pt-[39px] pl-[39px];
+  border: solid 2px #FFFFFF;
+}
+.spread_virus h3{
+  @apply w-[256px] font-montstarate font-bold text-[23px] text-[#FFFFFF] mt-[39px] mb-[52px]
+}
+.spread_virus a{
+  @apply font-montstarate font-bold text-[17px] text-Brand_color inline-block 
+
 }
