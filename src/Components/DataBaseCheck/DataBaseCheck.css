@@ -38,27 +38,41 @@
 .Get_vaccinated_text_row{
   @apply flex flex-wrap justify-between items-start
 }
+.get_vaccinated_card_row{
+  @apply flex flex-wrap gap-[30px] justify-between items-end mt-[40px] md:mt-[50px] lg:mt-[40px]
+}
 .immune{
-  @apply w-[449px] pt-[40px] pl-[40px] pb-[77px] rounded-b-[50px] rounded-tl-[50px] rounded-tr-[150px] bg-[rgba(196,196,196,0.16)] 
+  @apply w-[276px] md:w-[449px] pt-[20px] md:pt-[39px] pl-[20px] md:pl-[39px] pb-[30px] md:pb-[77px] rounded-b-[50px] rounded-tl-[50px] rounded-tr-[150px] bg-[rgba(196,196,196,0.16)] 
 }
 .immune h3{
-  @apply w-[288px] mt-[39px] mb-[29px] font-montstarate font-bold text-[23px] text-Brand_color
+  @apply w-[172px] md:w-[288px] mt-[20px] md:mt-[39px] mb-[20px] md:mb-[29px] font-montstarate font-bold text-[14px] md:text-[23px] text-Brand_color
 }
 .immune p{
-  @apply w-[352px] font-montstarate font-medium text-[17px] text-white
+  @apply w-[235px] md:w-[352px] font-montstarate font-medium text-[12px] md:text-[17px] text-white
 
 }
 .immune a{
-  @apply mt-[40px] font-montstarate font-bold text-[17px] text-Brand_color inline-block
+  @apply mt-[30px] md:mt-[40px] font-montstarate font-bold text-[12px] md:text-[17px] text-Brand_color inline-block
 }
 .spread_virus{
-  @apply w-[349px] rounded-[50px] pt-[39px] pl-[39px];
+  @apply w-[180px] md:w-[296px] lg:w-[349px] h-[200px] md:h-[290px] lg:h-[349px] rounded-[50px] pt-[20px] md:pt-[39px] pl-[20px] md:pl-[39px] pb-[23px] md:pb-[31px] lg:pb-[58px];
   border: solid 2px #FFFFFF;
 }
 .spread_virus h3{
-  @apply w-[256px] font-montstarate font-bold text-[23px] text-[#FFFFFF] mt-[39px] mb-[52px]
+  @apply w-[156px] md:w-[256px] font-montstarate font-bold text-[14px] md:text-[23px] text-[#FFFFFF] mt-[20px] md:mt-[39px] mb-[20px] lg:mb-[52px]
 }
 .spread_virus a{
-  @apply font-montstarate font-bold text-[17px] text-Brand_color inline-block 
+  @apply font-montstarate font-bold text-[14px] md:text-[17px] text-Brand_color inline-block 
+
+}
+.protect{
+  @apply w-[180px] md:w-[296px] lg:w-[349px] h-[200px] md:h-[290px] lg:h-[349px] rounded-[50px] pt-[20px] md:pt-[39px] pl-[20px] md:pl-[39px] pb-[23px] md:pb-[31px] lg:pb-[58px];
+  border: solid 2px #FFFFFF;
+}
+.protect h3{
+  @apply w-[156px] md:w-[256px] font-montstarate font-bold text-[14px] md:text-[23px] text-[#FFFFFF] mt-[20px] md:mt-[39px] mb-[20px] md:mb-[55px] lg:mb-[83px]
+}
+.protect a{
+  @apply font-montstarate font-bold text-[14px] md:text-[17px] text-Brand_color inline-block 
 
 }

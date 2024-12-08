@@ -1,0 +1,27 @@
+.Registration {
+  @apply pt-[35px] md:pt-[40px];
+}
+.heading {
+  @apply w-[230px] md:w-[586px] font-montstarate font-bold text-[24px] md:text-[36px] text-black m-auto lg:ml-0 mb-[20px] md:mb-[40px];
+}
+.registration_form_photo_row{
+    @apply flex flex-wrap gap-[38px] md:gap-[70px] lg:gap-[220px] lg:flex-row-reverse px-[35px] md:px-[57px] lg:px-0
+}
+.form h2{
+    @apply font-montstarate font-bold text-black text-[14px] md:text-[20px] lg:text-[24px]
+}
+.form input{
+    @apply w-[305px] h-[50px] md:w-[650px] md:h-[70px] lg:h-[70px] py-[16px] px-[20px] md:py-[23px] md:px-[30px] lg:py-[20px] lg:px-[30px] font-montstarate font-medium text-[14px] md:text-[20px] lg:text-[24px] bg-[rgba(0,0,0,0.15)] rounded-[20px] mt-[20px] mb-[20px] md:mt-[25px] md:mb-[40px] outline-none
+}
+.form p{
+    @apply w-[320px] md:w-[652px] font-montstarate font-medium text-[14px] md:text-[20px] mt-[20px] md:mt-[25px] lg:mt-[20px]
+}
+.phone_input{
+    @apply flex flex-wrap md:gap-[40px] items-center
+}
+.phone_input input{
+    @apply w-[305px] md:w-[400px]
+}
+.phone_input button{
+    @apply px-[53px] py-[16px] md:px-[70px] md:py-[23px] lg:py-[20px] font-montstarate font-bold text-white text-[14px] md:text-[20px] lg:text-[24px] bg-Brand_color rounded-[20px] mb-[20px] md:mt-[25px] md:mb-[40px]
+}
