@@ -1,0 +1,46 @@
+.feedback_text_row {
+  @apply text-center pt-[30px] md:pt-[46px] lg:pt-[57px];
+}
+.feedback_text_row h3 {
+  @apply font-montstarate font-bold text-Brand_color text-[14px] md:text-[20px] lg:text-[24px];
+}
+.feedback_text_row h2 {
+  @apply font-montstarate font-extrabold text-black text-[24px] md:text-[36px] lg:text-[48px] mt-[20px] mb-[10px] md:mt-[20px] md:mb-[40px];
+}
+.feedback_text_row p {
+  @apply w-[248px] md:w-[580px] lg:w-[952px] m-auto font-montstarate font-medium text-[rgba(0,0,0,0.5)] text-[12px] md:text-[18px] lg:text-[24px];
+}
+.feedback_img_row{
+    @apply relative
+}
+
+.single_card_bg_img {
+  @apply flex flex-wrap justify-around items-center;
+}
+.card_row {
+  @apply flex flex-wrap gap-[30px] items-center absolute top-[154px] left-[10px];
+}
+.single_card {
+  @apply w-[400px] h-[250px] bg-[rgba(196,196,196,0.5)] rounded-[20px];
+}
+
+.heading_Row {
+  @apply pt-[30px] pl-[30px] flex gap-[20px];
+}
+.heading_Text h2 {
+  @apply font-montstarate font-bold text-[24px] text-black;
+}
+
+.heading_Text h3 {
+  @apply font-montstarate font-bold text-[rgba(0,0,0,0.5)] text-[14px];
+}
+
+.text_row {
+  @apply mt-[40px];
+}
+.text_row p {
+  @apply w-[333px] font-montstarate font-medium text-[18px] text-[rgba(0,0,0,0.6)];
+}
+.text_row span {
+  @apply text-Brand_color pr-1;
+}

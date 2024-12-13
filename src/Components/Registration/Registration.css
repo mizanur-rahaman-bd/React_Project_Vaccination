@@ -1,5 +1,5 @@
 .Registration {
-  @apply pt-[35px] md:pt-[40px];
+  @apply pt-[35px] md:pt-[40px] pb-[41px] md:pb-[49px] lg:pb-[33px];
 }
 .heading {
   @apply w-[230px] md:w-[586px] font-montstarate font-bold text-[24px] md:text-[36px] text-black m-auto lg:ml-0 mb-[20px] md:mb-[40px];
@@ -24,4 +24,10 @@
 }
 .phone_input button{
     @apply px-[53px] py-[16px] md:px-[70px] md:py-[23px] lg:py-[20px] font-montstarate font-bold text-white text-[14px] md:text-[20px] lg:text-[24px] bg-Brand_color rounded-[20px] mb-[20px] md:mt-[25px] md:mb-[40px]
+}
+.submit_button button{
+    @apply px-[125px] py-[16px] md:px-[288px] md:py-[20px] lg:px-[279px] bg-Brand_color rounded-[20px] font-montstarate font-bold text-white text-[14px] md:text-[20px] lg:text-[24px] mb-[20px] md:mb-[40px]
+}
+.submit_button p{
+    @apply font-montstarate font-semibold text-[14px] md:text-[20px] text-[rgba(0,0,0,0.5)] text-center
 }
