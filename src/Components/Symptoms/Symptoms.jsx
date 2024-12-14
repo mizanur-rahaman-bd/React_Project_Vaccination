@@ -6,7 +6,7 @@ const Symptoms = () => {
     <>
     <section className='symptoms_Section'>
         <div className="container">
-        <div className="text_row">
+        <div className="Symptom_text_row">
             <h3>Covid-19 Prevention</h3>
             <h2><span className='text-Brand_color'>COVID-19</span> Symptoms</h2>
             <p className='w-[296px] md:w-[553px] lg:w-[952px]'>Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit.</p>

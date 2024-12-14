@@ -1,0 +1,44 @@
+.footer_section{
+    @apply pt-[133px] md:pt-[270px] lg:pt-[327px] pb-[30px] md:pb-[50px] lg:pb-[123px] px-[35px] md:px-[50px] lg:px-[67px] bg-[url('Images/bannerBg.png')] relative;
+    background-size: cover;
+}
+.footer_menu_content{
+    @apply flex flex-col lg:flex-row gap-[20px] md:gap-[40px] lg:gap-[118px] justify-start 
+}
+.footer_main_menu ul{
+    @apply flex flex-col md:flex-row md:gap-[25px] lg:gap-[25px] justify-start
+}
+.footer_main_menu ul li a{
+    @apply font-montstarate font-bold text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFF80]
+}
+.footer_main_menu ul li a:hover{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer_social_link{
+    @apply flex gap-[10px]
+}
+.footer_social_link img{
+    @apply w-[17px] h-[17px] md:w-[31px] md:h-[31px] lg:w-[50px] lg:h-[50px]
+}
+.footer_mail_box{
+    @apply w-[305px] md:w-[709px] md:h-[320px] md:px-[25px] lg:w-[1067px] h-[206px] lg:h-[435px] px-[12px]  py-[28px] lg:p-[17px] rounded-[20px] md:rounded-[50px] bg-[rgba(196,196,196,0.15)] absolute top-[-100px] lg:top-[-220px] left-[35px] lg:left-[125px]
+}
+.footer_mail_small_box{
+    @apply w-[280px] md:w-[659px] md:h-[263px] h-[147px] lg:w-[1031px] lg:h-[400px] bg-Brand_color rounded-[10px] md:rounded-[50px] pt-[16px] lg:pt-[70px] pb-[28px] md:pb-[56px] lg:pb-[107px] text-center
+}
+.footer_mail_small_box h2{
+    @apply font-montstarate font-bold text-white text-[18px] md:text-[36px] lg:text-[48px]
+}
+.footer_mail_small_box p{
+    @apply font-montstarate font-medium text-white text-[10px] md:text-[20px] lg:text-[24px] mt-[5px] md:mt-[20px] mb-[24px] md:mb-[28px] lg:mb-[40px]
+}
+.footer_input_row{
+    @apply flex items-center justify-center
+}
+.footer_input_row input{
+    @apply w-[174px] md:w-[450px] md:h-[75px] h-[40px] pl-[12px] md:pl-[40px] py-[14px] md:py-[28px] font-montstarate font-medium text-black text-[10px] md:text-[20px] rounded-l-[30px] outline-none
+}
+.footer_input_row button{
+    @apply px-[11px] py-[10px] md:px-[30px] md:py-[17.5px] bg-[#0B153C] rounded-r-[30px]
+}

@@ -9,10 +9,10 @@
     @apply hidden lg:block
 }
 .main_menu ul{
-    @apply flex gap-[25px]
+    @apply flex gap-[25px] items-center justify-center
 }
 .main_menu ul li a{
-    @apply font-montstarate font-medium text-[24px] text-[#FFFFFF80]
+    @apply font-montstarate font-bold text-[24px] text-[#FFFFFF80]
 }
 .main_menu ul li a:hover{
     font-weight: 700;

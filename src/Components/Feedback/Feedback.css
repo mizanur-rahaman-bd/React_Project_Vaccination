@@ -1,3 +1,6 @@
+.feedback_section{
+  @apply pb-[114px] md:pb-[104px] lg:pb-[250px]
+}
 .feedback_text_row {
   @apply text-center pt-[30px] md:pt-[46px] lg:pt-[57px];
 }
@@ -15,31 +18,38 @@
 }
 
 .single_card_bg_img {
-  @apply flex flex-wrap justify-around items-center;
+  @apply flex flex-wrap flex-col lg:flex-row gap-[22px] md:gap-0 justify-around items-center;
+}
+.single_card_bg_img img{
+  @apply w-[124px] h-[201px] md:w-[173px] md:h-[283px] lg:w-[294] lg:h-[478px]
+
 }
 .card_row {
-  @apply flex flex-wrap gap-[30px] items-center absolute top-[154px] left-[10px];
+  @apply flex flex-wrap gap-[30px] justify-center items-center absolute top-[25px] lg:top-[154px] left-[10px];
 }
 .single_card {
-  @apply w-[400px] h-[250px] bg-[rgba(196,196,196,0.5)] rounded-[20px];
+  @apply w-[305px] h-[190px] md:w-[400px] md:h-[250px] lg:w-[400px] lg:h-[250px] bg-[rgba(196,196,196,0.5)] rounded-[20px];
 }
 
 .heading_Row {
   @apply pt-[30px] pl-[30px] flex gap-[20px];
 }
+.heading_Row img{
+  @apply w-[53px] h-[53px] md:w-[70px] md:h-[70px]
+}
 .heading_Text h2 {
-  @apply font-montstarate font-bold text-[24px] text-black;
+  @apply font-montstarate font-bold text-[13px] md:text-[20px] lg:text-[24px] text-black;
 }
 
 .heading_Text h3 {
-  @apply font-montstarate font-bold text-[rgba(0,0,0,0.5)] text-[14px];
+  @apply font-montstarate font-bold text-[rgba(0,0,0,0.5)] text-[9px] md:text-[14px];
 }
 
 .text_row {
-  @apply mt-[40px];
+  @apply mt-[40px] text-center;
 }
 .text_row p {
-  @apply w-[333px] font-montstarate font-medium text-[18px] text-[rgba(0,0,0,0.6)];
+  @apply m-auto w-[253px] md:w-[333px] font-montstarate font-medium text-[12px] md:text-[18px] text-[rgba(0,0,0,0.6)];
 }
 .text_row span {
   @apply text-Brand_color pr-1;

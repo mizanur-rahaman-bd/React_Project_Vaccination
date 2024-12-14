@@ -5,6 +5,7 @@ import DataBaseCheck from "../Components/DataBaseCheck/DataBaseCheck";
 import Registration from "../Components/Registration/Registration";
 import Symptoms from "../Components/Symptoms/Symptoms";
 import Feedback from "../Components/Feedback/Feedback";
+import Footer from "../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Registration />
       <Symptoms />
       <Feedback />
+      <Footer />
     </>
   );
 };
